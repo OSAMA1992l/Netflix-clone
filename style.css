@@ -17,7 +17,9 @@ border-bottom: 0.6rem solid rgb(40, 37, 37);
     display: flex;
    justify-content: space-between;
     height: 2.8rem;
-    align-items: center;
+     font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.247);
+   align-items: center;
     width: 100%;
     margin-top: 0.7rem;
 }
@@ -39,12 +41,11 @@ border-bottom: 0.6rem solid rgb(40, 37, 37);
 select{
     height: 1.4rem;
     width: 5.5rem;
-    color: rgb(247, 242, 242);
+    color: rgb(237, 235, 235);
     font-size: 0.7rem;
    letter-spacing: 0.1rem;
     border-radius: 0.1rem;
-    font-weight: 600;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(18, 17, 17, 0.443);
 }
 
 .button button{
@@ -317,11 +318,12 @@ display: flex;
     padding: 10px;
 }
 .child6 video{
-    height: 140px;
+    height: 135px;
 position: absolute;
-top: 10%;
+top: 11.5%;
 left: 18%;
 z-index: 1;
+
 }
 /* container5 */
 .container5{
@@ -358,12 +360,11 @@ z-index: 1;
     display: flex;
     align-items: center;
     text-align: center;
-    /* background-color: black; */
     flex-direction: column;
 }
-.footer1 h1{
-    /* color: white; */
-    font-size: 38px;
+.footer1 h2{
+    font-size: 28px;
+    padding: 10px;
 }
 li{
     list-style: none;
@@ -372,17 +373,148 @@ input{
 list-style: none;
 }
 
+.footer1-box{
+background-color: black;
+}
+.footer1{
+    background-color: black;
+    color: white;
+}
 .label-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.6rem;
+    background-color: rgba(26, 26, 26, 0.845);
+    margin-left: 20%;
+    margin-right: 20%;
+   margin-top: 2%;
+   border: 1px solid rgb(31, 30, 30);
+   margin-bottom: 0.1rem;
+   color: white;
+}
+ label{
+    padding-left: 6%;
+}
+
+.label-box span{
+    padding-right: 5%;
+}
+
+.content {
+    background-color: rgb(26, 25, 25);
+     margin-left: 20%;
+    margin-right: 20%; 
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 3s ease-in;
+}
+.label-box:hover + .content{
+   max-height: 330px;
+}
+
+/*  */
+.footer-2{
+   
+    background-color: black;
+   
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+.footer-2 p{
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    padding: 10px;
+}
+/*  */
+.search-box2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+.search-box2 input{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-}
- label{
-    background-color: gray;
+    flex-wrap: wrap;
+    width: 28rem;
+    padding: 2rem;
+    height: 2.2rem;
+    background-color: rgba(20, 20, 20, 0.709);
+    border: 1px solid rgb(207, 207, 207);
+    padding: 12px;
+    border-radius: 0.2rem;
+   
 }
 
+.search-box2 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 2.2rem;
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    border: 0;
+    border-radius: 0.2rem;
+}
+.number{
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-left: 22%;
+}
 
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5px;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+.footer-content ul{
+   text-decoration: underline;
+   font-size: 0.7rem;
+   padding: 10px;
+}
+
+.button-2{
+    height: 4.8rem;
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+   gap: 5px;
+   justify-content: space-between;
+  padding-left: 19%;
+  background-color: black;
+padding-left: 21%;
+}
+
+select{
+    height: 1.5rem;
+    /* width: 5.5rem; */
+    color: rgb(247, 242, 242);
+    font-size: 0.7rem;
+   letter-spacing: 0.1rem;
+    border-radius: 0.1rem;
+    background-color: rgba(0, 0, 0, 0.844);
+}
+.india p{
+    width: 5.5rem;
+    font-size: 0.8rem;
+    color: rgb(137, 137, 137);
+}
 
 
 

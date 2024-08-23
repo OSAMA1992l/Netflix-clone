@@ -14,6 +14,10 @@
      .container2{
         flex-wrap: wrap;
      }  
+     .container3{
+        flex-wrap: wrap-reverse;
+     }  
+
 .child1{
    padding: 20px;
 }
@@ -41,15 +45,15 @@
     }
 
     .child6 video{
-      height: 100px;
+      height: 110px;
   position: absolute;
-  top: 10%;
-  left: 18%;
+  top: 11%;
+  left: 19%;
   }
 
   .child5 span{
    display: flex;
-   align-items: center;
+   text-align: center;
 }
   .child5 h2{
    display: flex;
@@ -59,7 +63,9 @@
 
 }
 
-
+.search-box2{
+   flex-wrap: wrap;
+}
 
 @media screen and (max-width:250px) {
    .child2 img{
@@ -84,7 +90,7 @@
    .child6 video{
       height: 60px;
   position: absolute;
-  top: 12%;
+  top: 13%;
   left: 21%;
   z-index: 1;
   }
@@ -111,3 +117,7 @@
    height: 140px;
 }
 }
+
+
+
+
