@@ -5,12 +5,8 @@
     
     
 }
- .button{
-    flex-wrap: wrap;
- }
- .nav-bar{
-    flex-wrap: wrap;
- }
+ 
+ 
      .container2{
         flex-wrap: wrap;
      }  
@@ -60,6 +56,9 @@
    align-items: center;
 }
  
+.number{
+   text-align: center;
+}
 
 }
 
@@ -73,6 +72,13 @@
    }
    .child2 video{
       height: 70px;
+   }
+   .number{
+      text-align: center;
+   }
+
+   .nav-bar{
+      flex-wrap: wrap;
    }
 }
 
@@ -116,6 +122,10 @@
 .child7 img{
    height: 140px;
 }
+.button{
+   flex-wrap: wrap;
+}
+
 }
 
 
